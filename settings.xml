@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+
+  <servers>
+    <server>
+      <id>Mega-Release</id>
+      <username>admin</username>
+      <password>1234</password>
+    </server>
+    <server>
+      <id>Mega-snapshot</id>
+      <username>admin</username>
+      <password>1234</password>
+    </server>
+    <server>
+        <id>maven-central</id>
+        <username>admin</username>
+        <password>1234</password>
+      </server>
+  </servers>
+
+  <mirrors>
+    <mirror>
+      <id>Mega-Group</id>
+      <name>Mega-Group</name>
+      <url>http://127.0.0.1:8081/repository/Mega-Group/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+
+</settings>
