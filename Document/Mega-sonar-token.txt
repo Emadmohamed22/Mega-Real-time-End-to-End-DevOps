@@ -1,3 +1,0 @@
-sqp_69aa8636995e19b8bfd0126d19984f1082ee223b
-
-mvn clean verify sonar:sonar -Dsonar.projectKey=Mega -Dsonar.host.url=http://127.0.0.1:9000 -Dsonar.login=sqp_69aa8636995e19b8bfd0126d19984f1082ee223b
