@@ -3,6 +3,8 @@ pipeline{
     agent any 
     tools {
         maven "3.8.6"
+        SonarQubeScanner "4.7.0.2747"
+
     }
     stages {
         
