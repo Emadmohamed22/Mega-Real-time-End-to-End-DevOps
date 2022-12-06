@@ -48,20 +48,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<repositories>
-		<repository>
-		  <id>Mega-Group</id>
-		  <url>http://127.0.0.1:8081/repository/Mega-Group/</url>
-		</repository>
-	  </repositories>
-	  <distributionManagement>
-		<snapshotRepository>
-		  <id>Mega-snapshot</id>
-		  <url>http://127.0.0.1:8081/repository/Mega-snapshot/</url>
-		</snapshotRepository>
-		<repository>
-		  <id>Mega-Release</id>
-		  <url>http://127.0.0.1:8081/repository/Mega-Release/</url>
-		</repository>
-	  </distributionManagement>
+
 </project>
