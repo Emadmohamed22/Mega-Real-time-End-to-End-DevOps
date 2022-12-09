@@ -26,12 +26,19 @@ SonarQube Configuration
 
 a.	Create username and password
 b.	Create your project 
+
 •	Create a project manually.
+
 •	Create project Name & Key.
+
 •	Analyze your project locally.
+
 •	Generate a project token.
+
 •	describes your build tool [maven]
+
 •	run mvn clean verify sonar:sonar with project parameters Url&Login&Key 
+
 
 __________________________________________________________________________________________________________________________________________________________________
 
