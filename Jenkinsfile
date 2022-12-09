@@ -73,7 +73,19 @@ pipeline{
         stage('Docker image build'){
             steps{
                 scripts{
-                    sh'docker image build -t'
+                    sh'docker image build -t $JDB_NAME:v1.BUILD_ID .'
+                    sh'docker image tag -t $JDB_NAME:v1.BUILD_ID dockerrepo/$JDB_NAME:v1.BUILD_ID'
+                    sh'docker image tag -t $JDB_NAME:v1.BUILD_ID dockerrepo/$JDB_NAME:latest'
+                }
+            }
+        }
+        stage('Push image to DockerHub')
+        steps{
+            scripts{
+                withCredentials([string(credentialsId: 'git_creds' , variable: 'docker_hub_cred')]){
+                    sh'docker login -u dockerrepo -p $(docker_hub_cred)'
+                    sh'docker image push dockerrepo/$JDB_NAME:v1.BUILD_ID'
+                    sh'docker image push dockerrepo/$JDB_NAME:latest'
                 }
             }
         }
