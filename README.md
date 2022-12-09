@@ -80,7 +80,7 @@ Jenkins Configuration
 
    iv.	Sonar Quality GatesVersion
 
-    v.	Quality GatesVersion
+   v.	Quality GatesVersion
 
 9.	Configure SonarQube server on Jenkins [URL, authentication type, Jenkins credentials]
 
