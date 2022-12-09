@@ -43,9 +43,13 @@ ________________________________________________________________________________
 Nexus Configuration
 
 a.	Create root username and password.
+
 b.	Create Mega-Central Repository to download and store all dependencies.
+
 c.	Create Mega-Snapshot Repository to store snapshot artifacts.
+
 d.	Create Mega-Release Repository to store Releases artifacts.
+
 e.	Create Mega-Group Repository to store all Repositories.
 
 __________________________________________________________________________________________________________________________________________________________________
@@ -53,21 +57,37 @@ ________________________________________________________________________________
 Jenkins Configuration
 
 1.	New item.
-2.	Select Pipeline type.
-3.	pipeline script from SCM.
-4.	Add Repository URL.
-5.	Provide Git credentials if private repository.
-6.	Select which branch.
-7.	Configure maven on Jenkins.
-8.	Install below sonar plugins: 
+
+3.	Select Pipeline type.
+
+4.	pipeline script from SCM.
+
+5.	Add Repository URL.
+
+6.	Provide Git credentials if private repository.
+
+7.	Select which branch.
+
+8.	Configure maven on Jenkins.
+
+9.	Install below sonar plugins:
+ 
 i.	SonarQube ScannerVersion
+
 ii.	Sonar GerritVersion
+
 iii.	SonarQube Generic CoverageVersion
+
 iv.	Sonar Quality GatesVersion
+
 v.	Quality GatesVersion
+
 9.	Configure SonarQube server on Jenkins [URL, authentication type, Jenkins credentials]
+
 10.	From global tool configuration add SonarQube Extension. 
+
 11.	Install below nexus plugins:
+
 	Nexus Artifact UploaderVersion
 
 
