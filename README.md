@@ -15,7 +15,9 @@ Bring up vm
 $ vagrant up
 
 PROVISIONING
+
 #Provisioning all services by Docker-Compose File.
+
 Services 
 1.	Jenkins [Docker Image]
 Ci-Cd automation server
@@ -25,6 +27,7 @@ continuous inspection of code quality to perform automatic reviews
 open-source repository that supports many artifacts formats
 
 SonarQube Configuration
+
 a.	Create username and password
 b.	Create your project 
 •	Create a project manually.
@@ -35,6 +38,7 @@ b.	Create your project
 •	run mvn clean verify sonar:sonar with project parameters Url&Login&Key 
 
 Nexus Configuration
+
 a.	Create root username and password.
 b.	Create Mega-Central Repository to download and store all dependencies.
 c.	Create Mega-Snapshot Repository to store snapshot artifacts.
@@ -42,6 +46,7 @@ d.	Create Mega-Release Repository to store Releases artifacts.
 e.	Create Mega-Group Repository to store all Repositories.
 
 Jenkins Configuration
+
 1.	New item.
 2.	Select Pipeline type.
 3.	pipeline script from SCM.
