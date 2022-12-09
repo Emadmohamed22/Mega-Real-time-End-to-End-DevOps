@@ -25,17 +25,17 @@ ________________________________________________________________________________
 SonarQube Configuration
 
 a.	Create username and password
-b.	Create your project 
+b.	Create your project
 
-•	Create a project manually.
+  •	Create a project manually.
 
-•	Create project Name & Key.
+  •	Create project Name & Key.
 
-•	Analyze your project locally.
+  •	Analyze your project locally.
 
-•	Generate a project token.
+  •	Generate a project token.
 
-•	describes your build tool [maven] .
+  •	describes your build tool [maven] .
 
 
 __________________________________________________________________________________________________________________________________________________________________
@@ -72,15 +72,15 @@ Jenkins Configuration
 
 9.	Install below sonar plugins:
  
-i.	SonarQube ScannerVersion
+   i.	SonarQube ScannerVersion
 
-ii.	Sonar GerritVersion
+   ii.	Sonar GerritVersion
 
-iii.	SonarQube Generic CoverageVersion
+   iii.	SonarQube Generic CoverageVersion
 
-iv.	Sonar Quality GatesVersion
+   iv.	Sonar Quality GatesVersion
 
-v.	Quality GatesVersion
+    v.	Quality GatesVersion
 
 9.	Configure SonarQube server on Jenkins [URL, authentication type, Jenkins credentials]
 
@@ -88,6 +88,6 @@ v.	Quality GatesVersion
 
 11.	Install below nexus plugins:
 
-	Nexus Artifact UploaderVersion
+   i.	Nexus Artifact UploaderVersion
 
 
