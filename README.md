@@ -6,19 +6,11 @@
 2.	Vagrant
 3.	Git bash or equivalent editor
 
-VM SETUP
-1.	Clone source code
-2.	Cd into the repository.
-3.	Switch to the local-setup branch
-
-Bring up vm
-$ vagrant up
-
 __________________________________________________________________________________________________________________________________________________________________
 
 PROVISIONING
 
-#Provisioning all services by Docker-Compose File From 
+#Provisioning all services by Docker-Compose File From https://github.com/Emadmohamed22/docker-compose-jenkins-nexus-sonar.git
 
 Services 
 1.	Jenkins [Docker Image]
