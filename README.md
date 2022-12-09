@@ -14,9 +14,11 @@ VM SETUP
 Bring up vm
 $ vagrant up
 
+__________________________________________________________________________________________________________________________________________________________________
+
 PROVISIONING
 
-#Provisioning all services by Docker-Compose File.
+#Provisioning all services by Docker-Compose File From 
 
 Services 
 1.	Jenkins [Docker Image]
@@ -25,6 +27,8 @@ Ci-Cd automation server
 continuous inspection of code quality to perform automatic reviews
 3.	Nexus [Docker Image]
 open-source repository that supports many artifacts formats
+
+__________________________________________________________________________________________________________________________________________________________________
 
 SonarQube Configuration
 
@@ -37,6 +41,8 @@ b.	Create your project
 •	describes your build tool [maven]
 •	run mvn clean verify sonar:sonar with project parameters Url&Login&Key 
 
+__________________________________________________________________________________________________________________________________________________________________
+
 Nexus Configuration
 
 a.	Create root username and password.
@@ -44,6 +50,8 @@ b.	Create Mega-Central Repository to download and store all dependencies.
 c.	Create Mega-Snapshot Repository to store snapshot artifacts.
 d.	Create Mega-Release Repository to store Releases artifacts.
 e.	Create Mega-Group Repository to store all Repositories.
+
+__________________________________________________________________________________________________________________________________________________________________
 
 Jenkins Configuration
 
