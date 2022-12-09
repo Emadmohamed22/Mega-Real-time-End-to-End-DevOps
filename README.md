@@ -35,9 +35,7 @@ b.	Create your project
 
 •	Generate a project token.
 
-•	describes your build tool [maven]
-
-•	run mvn clean verify sonar:sonar with project parameters Url&Login&Key 
+•	describes your build tool [maven] .
 
 
 __________________________________________________________________________________________________________________________________________________________________
