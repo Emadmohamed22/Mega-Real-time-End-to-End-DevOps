@@ -25,6 +25,7 @@ ________________________________________________________________________________
 SonarQube Configuration
 
 a.	Create username and password
+
 b.	Create your project
 
   •	Create a project manually.
